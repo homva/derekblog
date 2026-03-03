@@ -1,52 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CI/CD on Tech Blog</title><link>https://example.org/tags/ci/cd/</link><description>Recent content in CI/CD on Tech Blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/ci/cd/index.xml" rel="self" type="application/rss+xml"/><item><title>从零搭建静态博客：Hugo + GitHub Pages 完整指南</title><link>https://example.org/posts/static-blog-with-hugo/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://example.org/posts/static-blog-with-hugo/</guid><description>&lt;p&gt;静态博客在近几年经历了复兴。相比动态博客系统（WordPress、Ghost 等），静态站点生成器在性能、安全性和维护成本上都有显著优势。本文记录我们团队从选型到上线的完整过程。&lt;/p&gt;
-&lt;h2 id="为什么选择静态博客"&gt;为什么选择静态博客&lt;/h2&gt;
-&lt;p&gt;在动手之前，先回答一个根本问题：&lt;strong&gt;为什么不用现成的博客平台？&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;方案&lt;/th&gt;
- &lt;th&gt;优点&lt;/th&gt;
- &lt;th&gt;缺点&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Medium / 掘金&lt;/td&gt;
- &lt;td&gt;零维护，有现成读者&lt;/td&gt;
- &lt;td&gt;内容不归自己，定制能力弱&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;WordPress&lt;/td&gt;
- &lt;td&gt;功能完整，插件丰富&lt;/td&gt;
- &lt;td&gt;需要服务器，维护成本高，安全隐患多&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;静态博客（Hugo/Hexo）&lt;/td&gt;
- &lt;td&gt;极速、安全、版本控制友好&lt;/td&gt;
- &lt;td&gt;需要一定技术门槛&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;对于工程师团队来说，静态博客是最自然的选择：内容用 Markdown 写，用 Git 管理，CI/CD 自动部署——整个流程和日常开发工作无缝衔接。&lt;/p&gt;
-&lt;h2 id="选型hugo-vs-hexo-vs-jekyll"&gt;选型：Hugo vs Hexo vs Jekyll&lt;/h2&gt;
-&lt;p&gt;我们调研了主流的三个方案：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; 是 GitHub 官方支持的方案，但基于 Ruby，构建速度在文章较多时会明显变慢。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hexo&lt;/strong&gt; 基于 Node.js，生态成熟，中文社区活跃，但同样存在大站构建慢的问题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; 用 Go 编写，构建速度极快（千篇文章秒级完成），二进制安装无依赖，主题生态也相当丰富。最终我们选择了 Hugo。&lt;/p&gt;
-&lt;h2 id="环境准备"&gt;环境准备&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# macOS&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 验证安装&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# hugo v0.124.0+extended darwin/arm64&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建项目"&gt;创建项目&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site my-blog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd my-blog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 初始化 Git&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 添加主题（以 PaperMod 为例）&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 &lt;code&gt;hugo.yaml&lt;/code&gt; 中配置主题：&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CI/CD on Tech Blog</title>
+    <link>https://example.org/tags/ci/cd/</link>
+    <description>Recent content in CI/CD on Tech Blog</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从零搭建静态博客：Hugo &#43; GitHub Pages 完整指南</title>
+      <link>https://example.org/posts/static-blog-with-hugo/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/static-blog-with-hugo/</guid>
+      <description>手把手带你用 Hugo 搭建一个高性能静态博客，并通过 GitHub Actions 自动化部署到 GitHub Pages</description>
+    </item>
+  </channel>
+</rss>

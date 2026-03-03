@@ -1,0 +1,135 @@
+{{- define "main" }}
+
+<div class="home-hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Tech Blog</h1>
+    <p class="hero-sub">简洁 · 现代 · 技术</p>
+    <div class="hero-divider"></div>
+  </div>
+</div>
+
+{{- if .Site.Params.homeInfoParams }}
+<div class="home-info">
+  <div class="home-info-inner">
+    <h2>{{ .Site.Params.homeInfoParams.Title | markdownify }}</h2>
+    <p>{{ .Site.Params.homeInfoParams.Content | markdownify }}</p>
+  </div>
+</div>
+{{- end }}
+
+<div class="post-list-header">
+  <h2>最新文章</h2>
+  <a href="/archives/" class="view-all">查看全部 →</a>
+</div>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = $pages | first 10 }}
+
+{{- range $pages }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+  </header>
+  <div class="entry-meta">
+    <time>{{ .Date.Format "2006-01-02" }}</time>
+    {{- if .Params.tags }}
+    <span class="entry-tags">
+      {{- range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>
+      {{- end }}
+    </span>
+    {{- end }}
+  </div>
+  {{- if .Summary }}
+  <div class="entry-summary">{{ .Summary }}</div>
+  {{- end }}
+  <footer class="entry-footer">
+    <a class="read-more" href="{{ .Permalink }}">阅读全文 →</a>
+  </footer>
+</article>
+{{- end }}
+
+<style>
+.home-hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+  margin-bottom: 2rem;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 0.5rem;
+}
+.hero-sub {
+  color: var(--secondary, #6b7280);
+  font-size: 1.1rem;
+  margin: 0;
+}
+.hero-divider {
+  width: 40px;
+  height: 3px;
+  background: var(--primary, #1d4ed8);
+  margin: 1.5rem auto 0;
+  border-radius: 2px;
+}
+.home-info {
+  background: var(--code-bg, #f3f4f6);
+  border-left: 4px solid var(--primary, #1d4ed8);
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.home-info h2 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+.home-info p { margin: 0; color: var(--secondary, #6b7280); }
+.post-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.post-list-header h2 { margin: 0; font-size: 1.25rem; }
+.view-all {
+  font-size: 0.875rem;
+  color: var(--primary, #1d4ed8);
+  text-decoration: none;
+}
+.view-all:hover { text-decoration: underline; }
+.post-entry {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+.entry-title { margin: 0 0 0.5rem; font-size: 1.2rem; }
+.entry-title a { text-decoration: none; }
+.entry-title a:hover { text-decoration: underline; }
+.entry-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--secondary, #6b7280);
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.entry-tags a {
+  color: var(--primary, #1d4ed8);
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+.entry-summary {
+  color: var(--secondary, #6b7280);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+.read-more {
+  font-size: 0.875rem;
+  color: var(--primary, #1d4ed8);
+  text-decoration: none;
+}
+</style>
+
+{{- end }}
