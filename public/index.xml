@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Blog</title><link>https://example.org/</link><description>Recent content on Tech Blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 博客搭建完全指南</title><link>https://example.org/posts/hugo-setup-guide/</link><pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate><guid>https://example.org/posts/hugo-setup-guide/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;Hugo 是目前最快的静态网站生成器之一，使用 Go 语言编写，构建速度极快。本文介绍如何从零开始搭建 Hugo 博客并部署到 Cloudflare Pages。&lt;/p&gt;
+&lt;h2 id="安装-hugo"&gt;安装 Hugo&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 验证安装&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建新站点"&gt;创建新站点&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="本地开发"&gt;本地开发&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;make dev&lt;/code&gt; 启动开发服务器：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;make dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 访问 http://localhost:1313&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="构建部署"&gt;构建部署&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 构建静态文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;make build
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 清理构建产物&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;make clean
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="部署到-cloudflare-pages"&gt;部署到 Cloudflare Pages&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;将代码推送到 GitHub&lt;/li&gt;
+&lt;li&gt;在 Cloudflare Pages 中连接仓库&lt;/li&gt;
+&lt;li&gt;构建命令设置为 &lt;code&gt;hugo --minify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;输出目录设置为 &lt;code&gt;public&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="总结"&gt;总结&lt;/h2&gt;
+&lt;p&gt;Hugo + Cloudflare Pages 是一套免费、快速、稳定的博客方案，非常适合技术博客使用。&lt;/p&gt;</description></item><item><title>从零搭建静态博客：Hugo + GitHub Pages 完整指南</title><link>https://example.org/posts/static-blog-with-hugo/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://example.org/posts/static-blog-with-hugo/</guid><description>&lt;p&gt;静态博客在近几年经历了复兴。相比动态博客系统（WordPress、Ghost 等），静态站点生成器在性能、安全性和维护成本上都有显著优势。本文记录我们团队从选型到上线的完整过程。&lt;/p&gt;
+&lt;h2 id="为什么选择静态博客"&gt;为什么选择静态博客&lt;/h2&gt;
+&lt;p&gt;在动手之前，先回答一个根本问题：&lt;strong&gt;为什么不用现成的博客平台？&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;方案&lt;/th&gt;
+ &lt;th&gt;优点&lt;/th&gt;
+ &lt;th&gt;缺点&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Medium / 掘金&lt;/td&gt;
+ &lt;td&gt;零维护，有现成读者&lt;/td&gt;
+ &lt;td&gt;内容不归自己，定制能力弱&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;WordPress&lt;/td&gt;
+ &lt;td&gt;功能完整，插件丰富&lt;/td&gt;
+ &lt;td&gt;需要服务器，维护成本高，安全隐患多&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;静态博客（Hugo/Hexo）&lt;/td&gt;
+ &lt;td&gt;极速、安全、版本控制友好&lt;/td&gt;
+ &lt;td&gt;需要一定技术门槛&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;对于工程师团队来说，静态博客是最自然的选择：内容用 Markdown 写，用 Git 管理，CI/CD 自动部署——整个流程和日常开发工作无缝衔接。&lt;/p&gt;
+&lt;h2 id="选型hugo-vs-hexo-vs-jekyll"&gt;选型：Hugo vs Hexo vs Jekyll&lt;/h2&gt;
+&lt;p&gt;我们调研了主流的三个方案：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; 是 GitHub 官方支持的方案，但基于 Ruby，构建速度在文章较多时会明显变慢。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hexo&lt;/strong&gt; 基于 Node.js，生态成熟，中文社区活跃，但同样存在大站构建慢的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; 用 Go 编写，构建速度极快（千篇文章秒级完成），二进制安装无依赖，主题生态也相当丰富。最终我们选择了 Hugo。&lt;/p&gt;
+&lt;h2 id="环境准备"&gt;环境准备&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 验证安装&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# hugo v0.124.0+extended darwin/arm64&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建项目"&gt;创建项目&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 初始化 Git&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 添加主题（以 PaperMod 为例）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 &lt;code&gt;hugo.yaml&lt;/code&gt; 中配置主题：&lt;/p&gt;</description></item><item><title>关于我们</title><link>https://example.org/about/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://example.org/about/</guid><description>&lt;h1 id="关于我们"&gt;关于我们&lt;/h1&gt;
+&lt;p&gt;欢迎来到我们的技术博客。这里是一群热爱技术、热爱分享的工程师共同打造的知识空间。&lt;/p&gt;
+&lt;h2 id="我们是谁"&gt;我们是谁&lt;/h2&gt;
+&lt;p&gt;我们是一支专注于软件工程与技术创新的团队，成员来自前端、后端、基础设施和数据工程等多个领域。我们相信，好的技术知识不应该被束之高阁——它应该被记录、被分享、被传承。&lt;/p&gt;
+&lt;p&gt;这个博客就是我们实践这一信念的地方。&lt;/p&gt;
+&lt;h2 id="我们写什么"&gt;我们写什么&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;工程实践&lt;/strong&gt;：架构设计、代码质量、DevOps 流程&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术探索&lt;/strong&gt;：新技术评测、开源项目分析、踩坑记录&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;团队文化&lt;/strong&gt;：工程师成长、协作方式、技术决策背后的故事&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具与效率&lt;/strong&gt;：提升开发体验的工具链、自动化方案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="我们的理念"&gt;我们的理念&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;写下来，是为了想得更清楚。&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;写作对我们来说不只是输出，更是思考的延伸。每一篇文章背后都是真实的项目经历和踩过的坑。我们尽量做到：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;诚实&lt;/strong&gt;：不只写成功案例，也记录失败与教训&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深度&lt;/strong&gt;：不停留在表面，力求讲清楚 Why，而不只是 How&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实用&lt;/strong&gt;：所有内容都源于实际工作场景，可以直接参考落地&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="联系我们"&gt;联系我们&lt;/h2&gt;
+&lt;p&gt;如果你有任何问题、想法或合作意向，欢迎通过以下方式联系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;：&lt;a href="https://github.com"&gt;github.com/our-team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;：team@example.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;感谢你的阅读。希望这里的内容对你有所帮助。&lt;/p&gt;</description></item></channel></rss>
