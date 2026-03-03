@@ -1,135 +1,191 @@
 {{- define "main" }}
-
 <div class="home-hero">
-  <div class="hero-content">
-    <h1 class="hero-title">Tech Blog</h1>
-    <p class="hero-sub">简洁 · 现代 · 技术</p>
-    <div class="hero-divider"></div>
-  </div>
+    <div class="hero-content">
+        <h1 class="hero-title">Tech Blog</h1>
+        <p class="hero-sub">简洁 · 现代 · 技术</p>
+        <div class="hero-divider"></div>
+    </div>
 </div>
 
 {{- if .Site.Params.homeInfoParams }}
 <div class="home-info">
-  <div class="home-info-inner">
-    <h2>{{ .Site.Params.homeInfoParams.Title | markdownify }}</h2>
-    <p>{{ .Site.Params.homeInfoParams.Content | markdownify }}</p>
-  </div>
+    <div class="home-info-inner">
+        <h2>{{ .Site.Params.homeInfoParams.Title | markdownify }}</h2>
+        <p>{{ .Site.Params.homeInfoParams.Content | markdownify }}</p>
+    </div>
 </div>
 {{- end }}
 
 <div class="post-list-header">
-  <h2>最新文章</h2>
-  <a href="/archives/" class="view-all">查看全部 →</a>
+    <h2>最新文章</h2>
+    <a href="/archives/" class="view-all">查看全部 →</a>
 </div>
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = $pages | first 10 }}
-
 {{- range $pages }}
 <article class="post-entry">
-  <header class="entry-header">
-    <h2 class="entry-title">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
-  </header>
-  <div class="entry-meta">
-    <time>{{ .Date.Format "2006-01-02" }}</time>
-    {{- if .Params.tags }}
-    <span class="entry-tags">
-      {{- range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>
-      {{- end }}
-    </span>
+    <header class="entry-header">
+        <h2 class="entry-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+    </header>
+    <div class="entry-meta">
+        <span class="meta-date">{{ .Date.Format "2006-01-02" }}</span>
+        {{- if .Params.categories }}
+        <span class="meta-category">{{ index .Params.categories 0 }}</span>
+        {{- end }}
+        {{- if .Params.tags }}
+        <span class="entry-tags">
+            {{- range first 3 .Params.tags }}
+            <a href="/tags/{{ . | urlize }}/" class="tag">#{{ . }}</a>
+            {{- end }}
+        </span>
+        {{- end }}
+    </div>
+    {{- if .Summary }}
+    <div class="entry-summary">{{ .Summary }}</div>
     {{- end }}
-  </div>
-  {{- if .Summary }}
-  <div class="entry-summary">{{ .Summary }}</div>
-  {{- end }}
-  <footer class="entry-footer">
-    <a class="read-more" href="{{ .Permalink }}">阅读全文 →</a>
-  </footer>
+    <footer class="entry-footer">
+        <span class="read-time">☏ {{ .ReadingTime }} min</span>
+        <a class="read-more" href="{{ .Permalink }}">阅读全文 →</a>
+    </footer>
 </article>
 {{- end }}
 
 <style>
 .home-hero {
-  text-align: center;
-  padding: 3rem 0 2rem;
-  border-bottom: 1px solid var(--border, #e5e7eb);
-  margin-bottom: 2rem;
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--border, #e5e7eb);
+    margin-bottom: 2rem;
 }
 .hero-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  margin: 0 0 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0 0 0.5rem;
 }
 .hero-sub {
-  color: var(--secondary, #6b7280);
-  font-size: 1.1rem;
-  margin: 0;
+    color: var(--secondary, #6b7280);
+    font-size: 1.1rem;
+    margin: 0;
 }
 .hero-divider {
-  width: 40px;
-  height: 3px;
-  background: var(--primary, #1d4ed8);
-  margin: 1.5rem auto 0;
-  border-radius: 2px;
+    width: 40px;
+    height: 3px;
+    background: var(--primary, #1d4ed8);
+    margin: 1.5rem auto 0;
+    border-radius: 2px;
 }
 .home-info {
-  background: var(--code-bg, #f3f4f6);
-  border-left: 4px solid var(--primary, #1d4ed8);
-  border-radius: 0 8px 8px 0;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2.5rem;
+    background: var(--code-bg, #f3f4f6);
+    border-left: 4px solid var(--primary, #1d4ed8);
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
 }
 .home-info h2 { margin: 0 0 0.5rem; font-size: 1.1rem; }
 .home-info p { margin: 0; color: var(--secondary, #6b7280); }
+
 .post-list-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
 }
 .post-list-header h2 { margin: 0; font-size: 1.25rem; }
-.view-all {
-  font-size: 0.875rem;
-  color: var(--primary, #1d4ed8);
-  text-decoration: none;
-}
+.view-all { font-size: 0.875rem; color: var(--primary, #1d4ed8); text-decoration: none; }
 .view-all:hover { text-decoration: underline; }
+
+/* 文章卡片样式 - 优化版 */
 .post-entry {
-  padding: 1.5rem 0;
-  border-bottom: 1px solid var(--border, #e5e7eb);
+    background: var(--main-bg, #fff);
+    border: 1px solid var(--border, #e5e7eb);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    transition: all 0.25s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
-.entry-title { margin: 0 0 0.5rem; font-size: 1.2rem; }
-.entry-title a { text-decoration: none; }
-.entry-title a:hover { text-decoration: underline; }
+.post-entry:hover {
+    border-color: var(--primary, #1d4ed8);
+    box-shadow: 0 4px 12px rgba(29,78,216,0.1);
+    transform: translateY(-2px);
+}
+
+.entry-title { margin: 0 0 0.75rem; font-size: 1.25rem; }
+.entry-title a { 
+    text-decoration: none; 
+    color: var(--text, #1f2937);
+    font-weight: 600;
+}
+.entry-title a:hover { 
+    color: var(--primary, #1d4ed8); 
+}
+
 .entry-meta {
-  display: flex;
-  gap: 1rem;
-  font-size: 0.85rem;
-  color: var(--secondary, #6b7280);
-  margin-bottom: 0.75rem;
-  flex-wrap: wrap;
-  align-items: center;
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--secondary, #6b7280);
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.entry-tags a {
-  color: var(--primary, #1d4ed8);
-  text-decoration: none;
-  margin-right: 0.5rem;
+.meta-date { color: var(--secondary, #6b7280); }
+.meta-category {
+    background: var(--primary, #1d4ed8);
+    color: #fff;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
 }
+.entry-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.entry-tags a.tag {
+    color: var(--primary, #1d4ed8);
+    text-decoration: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.entry-tags a.tag:hover { opacity: 1; text-decoration: underline; }
+
 .entry-summary {
-  color: var(--secondary, #6b7280);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 0.75rem;
+    color: var(--secondary, #6b7280);
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin-bottom: 1rem;
+}
+
+.entry-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--border, #e5e7eb);
+}
+.read-time {
+    font-size: 0.8rem;
+    color: var(--secondary, #9ca3af);
 }
 .read-more {
-  font-size: 0.875rem;
-  color: var(--primary, #1d4ed8);
-  text-decoration: none;
+    font-size: 0.875rem;
+    color: var(--primary, #1d4ed8);
+    text-decoration: none;
+    font-weight: 500;
+}
+.read-more:hover { text-decoration: underline; }
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+    .post-entry {
+        background: var(--theme-surface, #1f2937);
+        border-color: #374151;
+    }
+    .entry-title a { color: #f3f4f6; }
+    .meta-category { background: #3b82f6; }
+    .entry-footer { border-color: #374151; }
 }
 </style>
-
 {{- end }}
