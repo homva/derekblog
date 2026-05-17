@@ -1,7 +1,7 @@
 {{- define "main" }}
 <div class="home-hero">
     <div class="hero-content">
-        <h1 class="hero-title">Tech Blog</h1>
+        <h1 class="hero-title">Derek Blogs</h1>
         <p class="hero-sub">简洁 · 现代 · 技术</p>
         <div class="hero-divider"></div>
     </div>
@@ -18,7 +18,7 @@
 
 <div class="post-list-header">
     <h2>最新文章</h2>
-    <a href="/archives/" class="view-all">查看全部 →</a>
+    <a href="{{ .Site.BaseURL }}archives/" class="view-all">查看全部 →</a>
 </div>
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
@@ -37,8 +37,8 @@
         {{- end }}
         {{- if .Params.tags }}
         <span class="entry-tags">
-            {{- range first 3 .Params.tags }}
-            <a href="/tags/{{ . | urlize }}/" class="tag">#{{ . }}</a>
+            {{- $base := .Site.BaseURL }}{{- range first 3 .Params.tags }}
+            <a href="{{ $base }}tags/{{ . | urlize }}/" class="tag">#{{ . }}</a>
             {{- end }}
         </span>
         {{- end }}

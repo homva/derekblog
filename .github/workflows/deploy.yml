@@ -1,0 +1,61 @@
+name: Deploy Hugo Blog to GitHub Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch: # 支持手动触发
+
+# 设置 GITHUB_TOKEN 的写入权限，用于部署
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同时只允许一个部署任务运行
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# 默认使用 ubuntu-latest
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # ========== 构建阶段 ==========
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.147.4
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # PaperMod 是 submodule 的话需要
+          fetch-depth: 0         # 获取完整 git 历史
+
+      - name: 安装 Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "${{ env.HUGO_VERSION }}"
+          extended: true
+
+      - name: 构建站点
+        run: hugo --minify --cleanDestinationDir
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # ========== 部署阶段 ==========
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build  # 依赖构建成功
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

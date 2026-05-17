@@ -1,0 +1,231 @@
+/* ============================================
+   Tech Blog - 现代化宽度 + 移动端适配
+   ============================================ */
+
+/* --------------------
+   1. 基础宽度设置 - 统一宽度确保视觉一致性
+   -------------------- */
+:root {
+    --main-width: 800px;        /* 主内容区域宽度 */
+    --content-width: 800px;     /* 文章内容宽度 */
+    --nav-width: 800px;         /* 导航栏宽度 */
+    --sidebar-width: 280px;
+    --spacing-unit: 1rem;
+}
+
+/* 导航栏宽度统一 */
+.nav {
+    max-width: calc(var(--nav-width) + var(--gap) * 2) !important;
+}
+
+/* 主内容容器 */
+.main {
+    max-width: calc(var(--main-width) + var(--gap) * 2) !important;
+}
+
+/* 文章头部（标题、meta信息等） */
+.post-header,
+.page-header {
+    max-width: var(--content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* 文章内容区域 */
+.post-content {
+    max-width: var(--content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* --------------------
+   2. 大屏幕优化 (>1440px)
+   -------------------- */
+@media (min-width: 1440px) {
+    :root {
+        --main-width: 900px;
+        --content-width: 900px;
+        --nav-width: 900px;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .post-content {
+        font-size: 1.1rem;
+    }
+}
+
+/* --------------------
+   3. 笔记本电脑 (1024px - 1439px)
+   -------------------- */
+@media (max-width: 1439px) and (min-width: 1024px) {
+    :root {
+        --main-width: 800px;
+        --content-width: 800px;
+        --nav-width: 800px;
+    }
+}
+
+/* --------------------
+   4. 平板横屏 (768px - 1023px)
+   -------------------- */
+@media (max-width: 1023px) and (min-width: 768px) {
+    :root {
+        --main-width: 90vw;
+    }
+    
+    .main-container {
+        padding: 0 1.5rem;
+    }
+}
+
+/* --------------------
+   5. 移动端适配 (< 768px)
+   -------------------- */
+@media (max-width: 767px) {
+    :root {
+        --main-width: 100%;
+        --content-width: 100%;
+    }
+    
+    /* 基础调整 */
+    body {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    
+    /* 容器 */
+    .main-container,
+    .container {
+        padding: 0 1rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* 顶部导航 */
+    .top-nav,
+    nav.main-nav {
+        padding: 0.75rem 1rem !important;
+    }
+    
+    /* 首页 Hero */
+    .home-hero {
+        padding: 2rem 1rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1.75rem !important;
+    }
+    
+    .hero-sub {
+        font-size: 1rem !important;
+    }
+    
+    /* 文章卡片 */
+    .post-entry {
+        padding: 1.25rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .entry-title {
+        font-size: 1.1rem !important;
+    }
+    
+    .entry-meta {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+    }
+    
+    .entry-footer {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start !important;
+    }
+    
+    /* 文章详情 */
+    .post-content,
+    .content-container {
+        padding: 0 1rem !important;
+    }
+    
+    /* 标题 */
+    .post-title,
+    h1 {
+        font-size: 1.5rem !important;
+        word-break: break-word;
+    }
+    
+    h2 { font-size: 1.3rem !important; }
+    h3 { font-size: 1.15rem !important; }
+    
+    /* 代码块 */
+    pre {
+        padding: 0.75rem !important;
+        font-size: 0.85rem !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* 图片 */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* 菜单 */
+    .menu main {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+    }
+    
+    /* 标签 */
+    .entry-tags {
+        flex-wrap: wrap;
+    }
+}
+
+/* --------------------
+   6. 超小屏幕 (< 480px)
+   -------------------- */
+@media (max-width: 480px) {
+    .home-hero {
+        padding: 1.5rem 0.75rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1.5rem !important;
+    }
+    
+    .post-entry {
+        padding: 1rem !important;
+        border-radius: 8px !important;
+    }
+    
+    .home-info {
+        padding: 1rem !important;
+    }
+    
+    .post-list-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem;
+    }
+}
+
+/* --------------------
+   7. 打印样式
+   -------------------- */
+@media print {
+    .main-container {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+    
+    nav, .share-buttons, .back-to-top {
+        display: none !important;
+    }
+}

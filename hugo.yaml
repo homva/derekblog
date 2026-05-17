@@ -1,9 +1,10 @@
-baseURL: https://example.org/
+baseURL: "https://homva.github.io/derekblog/"
 languageCode: zh-cn
-title: Tech Blog
+title: Derek Blogs
 theme: PaperMod
 
-paginate: 10
+pagination:
+  pagerSize: 10
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -15,7 +16,7 @@ minify:
 
 params:
   env: production
-  title: Tech Blog
+  title: Derek Blogs
   description: "简洁·现代·技术"
   keywords: [Blog, Tech, Programming]
   author: Admin
@@ -37,11 +38,12 @@ params:
 
   assets:
     disableHLJS: true
+    favicon: "favicon.svg"
 
   homeInfoParams:
     Title: "👋 Hi, Welcome"
     Content: >
-      这里是 Tech Blog —— 记录技术探索与工程实践。
+      这里是 Derek Blogs —— 记录技术探索与工程实践。
       简洁、务实、有深度。
 
   socialIcons:
