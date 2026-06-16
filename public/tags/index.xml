@@ -1,53 +1,578 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Tech Blog</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on Tech Blog</description>
+    <title>Tags on Derek Blogs</title>
+    <link>https://homva.github.io/derekblog/tags/</link>
+    <description>Recent content in Tags on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 03 Mar 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2026 01:30:00 +0800</lastBuildDate>
+    <atom:link href="https://homva.github.io/derekblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI工程化</title>
+      <link>https://homva.github.io/derekblog/tags/ai%E5%B7%A5%E7%A8%8B%E5%8C%96/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/ai%E5%B7%A5%E7%A8%8B%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedding</title>
+      <link>https://homva.github.io/derekblog/tags/embedding/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/embedding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://homva.github.io/derekblog/tags/llm/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>https://homva.github.io/derekblog/tags/rag/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/rag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>知识图谱</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://homva.github.io/derekblog/tags/ai/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LaTeX</title>
+      <link>https://homva.github.io/derekblog/tags/latex/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt工程</title>
+      <link>https://homva.github.io/derekblog/tags/prompt%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/prompt%E5%B7%A5%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>开源项目</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>科研写作</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%A7%91%E7%A0%94%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%A7%91%E7%A0%94%E5%86%99%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Agent</title>
+      <link>https://homva.github.io/derekblog/tags/ai-agent/</link>
+      <pubDate>Sat, 09 May 2026 02:08:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/ai-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLI</title>
+      <link>https://homva.github.io/derekblog/tags/cli/</link>
+      <pubDate>Sat, 09 May 2026 02:08:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Printing Press</title>
+      <link>https://homva.github.io/derekblog/tags/printing-press/</link>
+      <pubDate>Sat, 09 May 2026 02:08:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/printing-press/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>开发工具</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sat, 09 May 2026 02:08:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>最佳实践</title>
+      <link>https://homva.github.io/derekblog/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
+      <pubDate>Sat, 09 May 2026 02:08:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://homva.github.io/derekblog/tags/rust/</link>
+      <pubDate>Fri, 08 May 2026 01:05:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>无头浏览器</title>
+      <link>https://homva.github.io/derekblog/tags/%E6%97%A0%E5%A4%B4%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+      <pubDate>Fri, 08 May 2026 01:05:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E6%97%A0%E5%A4%B4%E6%B5%8F%E8%A7%88%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>爬虫</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%88%AC%E8%99%AB/</link>
+      <pubDate>Fri, 08 May 2026 01:05:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%88%AC%E8%99%AB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自动化</title>
+      <link>https://homva.github.io/derekblog/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <pubDate>Fri, 08 May 2026 01:05:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Y Combinator</title>
+      <link>https://homva.github.io/derekblog/tags/y-combinator/</link>
+      <pubDate>Tue, 05 May 2026 23:53:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/y-combinator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>记忆系统</title>
+      <link>https://homva.github.io/derekblog/tags/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 05 May 2026 23:53:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude Code</title>
+      <link>https://homva.github.io/derekblog/tags/claude-code/</link>
+      <pubDate>Mon, 27 Apr 2026 19:10:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/claude-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>研发效率</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%A0%94%E5%8F%91%E6%95%88%E7%8E%87/</link>
+      <pubDate>Mon, 27 Apr 2026 19:10:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%A0%94%E5%8F%91%E6%95%88%E7%8E%87/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>https://homva.github.io/derekblog/tags/anthropic/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/anthropic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://homva.github.io/derekblog/tags/claude/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Managed Agents</title>
+      <link>https://homva.github.io/derekblog/tags/managed-agents/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/managed-agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://homva.github.io/derekblog/tags/mcp/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>架构设计</title>
+      <link>https://homva.github.io/derekblog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI编程</title>
+      <link>https://homva.github.io/derekblog/tags/ai%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/ai%E7%BC%96%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLAUDE.md</title>
+      <link>https://homva.github.io/derekblog/tags/claude.md/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/claude.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Karpathy</title>
+      <link>https://homva.github.io/derekblog/tags/karpathy/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/karpathy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工作流</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>编码规范</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent开发</title>
+      <link>https://homva.github.io/derekblog/tags/agent%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/agent%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hooks</title>
+      <link>https://homva.github.io/derekblog/tags/hooks/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/hooks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://homva.github.io/derekblog/tags/java/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenSpec</title>
+      <link>https://homva.github.io/derekblog/tags/openspec/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/openspec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SDD</title>
+      <link>https://homva.github.io/derekblog/tags/sdd/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/sdd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SpringBoot</title>
+      <link>https://homva.github.io/derekblog/tags/springboot/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/springboot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Superpowers</title>
+      <link>https://homva.github.io/derekblog/tags/superpowers/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/superpowers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>企业案例</title>
+      <link>https://homva.github.io/derekblog/tags/%E4%BC%81%E4%B8%9A%E6%A1%88%E4%BE%8B/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E4%BC%81%E4%B8%9A%E6%A1%88%E4%BE%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>团队规范</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%9B%A2%E9%98%9F%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%9B%A2%E9%98%9F%E8%A7%84%E8%8C%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>研发流程</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spec驱动开发</title>
+      <link>https://homva.github.io/derekblog/tags/spec%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 20 Apr 2026 01:15:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/spec%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>开发方法论</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95%E8%AE%BA/</link>
+      <pubDate>Mon, 20 Apr 2026 01:15:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>软件工程</title>
+      <link>https://homva.github.io/derekblog/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Mon, 20 Apr 2026 01:15:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding Agent</title>
+      <link>https://homva.github.io/derekblog/tags/coding-agent/</link>
+      <pubDate>Mon, 20 Apr 2026 00:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/coding-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TDD</title>
+      <link>https://homva.github.io/derekblog/tags/tdd/</link>
+      <pubDate>Mon, 20 Apr 2026 00:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/tdd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>软件开发</title>
+      <link>https://homva.github.io/derekblog/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 20 Apr 2026 00:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
-      <link>https://example.org/tags/hugo/</link>
-      <pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://example.org/tags/hugo/</guid>
+      <link>https://homva.github.io/derekblog/tags/hugo/</link>
+      <pubDate>Sun, 19 Apr 2026 22:46:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSL</title>
+      <link>https://homva.github.io/derekblog/tags/wsl/</link>
+      <pubDate>Sun, 19 Apr 2026 22:46:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/wsl/</guid>
       <description></description>
     </item>
     <item>
       <title>博客</title>
-      <link>https://example.org/tags/%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://example.org/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <link>https://homva.github.io/derekblog/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 19 Apr 2026 22:46:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>经验分享</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Sun, 19 Apr 2026 22:46:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cc-Haha</title>
+      <link>https://homva.github.io/derekblog/tags/cc-haha/</link>
+      <pubDate>Sun, 19 Apr 2026 22:43:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/cc-haha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>教程</title>
+      <link>https://homva.github.io/derekblog/tags/%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 19 Apr 2026 22:43:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>编程助手</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B/</link>
+      <pubDate>Sun, 19 Apr 2026 22:43:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ARM</title>
+      <link>https://homva.github.io/derekblog/tags/arm/</link>
+      <pubDate>Sun, 19 Apr 2026 18:09:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/arm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>编译</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%BC%96%E8%AF%91/</link>
+      <pubDate>Sun, 19 Apr 2026 18:09:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%BC%96%E8%AF%91/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>踩坑</title>
+      <link>https://homva.github.io/derekblog/tags/%E8%B8%A9%E5%9D%91/</link>
+      <pubDate>Sun, 19 Apr 2026 18:09:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E8%B8%A9%E5%9D%91/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://homva.github.io/derekblog/tags/python/</link>
+      <pubDate>Sun, 19 Apr 2026 17:12:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yt-Dlp</title>
+      <link>https://homva.github.io/derekblog/tags/yt-dlp/</link>
+      <pubDate>Sun, 19 Apr 2026 17:12:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/yt-dlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skill</title>
+      <link>https://homva.github.io/derekblog/tags/skill/</link>
+      <pubDate>Wed, 04 Mar 2026 11:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/skill/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spark</title>
+      <link>https://homva.github.io/derekblog/tags/spark/</link>
+      <pubDate>Wed, 04 Mar 2026 11:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/spark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>大数据</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
+      <pubDate>Wed, 04 Mar 2026 11:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>性能</title>
+      <link>https://homva.github.io/derekblog/tags/%E6%80%A7%E8%83%BD/</link>
+      <pubDate>Wed, 04 Mar 2026 11:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E6%80%A7%E8%83%BD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chalk</title>
+      <link>https://homva.github.io/derekblog/tags/chalk/</link>
+      <pubDate>Wed, 04 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/chalk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodejs</title>
+      <link>https://homva.github.io/derekblog/tags/nodejs/</link>
+      <pubDate>Wed, 04 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>前端</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Wed, 04 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%89%8D%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>架构</title>
+      <link>https://homva.github.io/derekblog/tags/%E6%9E%B6%E6%9E%84/</link>
+      <pubDate>Tue, 03 Mar 2026 14:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E6%9E%B6%E6%9E%84/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>系统设计</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Tue, 03 Mar 2026 14:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>高并发</title>
+      <link>https://homva.github.io/derekblog/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/</link>
+      <pubDate>Tue, 03 Mar 2026 14:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/</guid>
       <description></description>
     </item>
     <item>
       <title>建站</title>
-      <link>https://example.org/tags/%E5%BB%BA%E7%AB%99/</link>
+      <link>https://homva.github.io/derekblog/tags/%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://example.org/tags/%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://homva.github.io/derekblog/tags/%E5%BB%BA%E7%AB%99/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD</title>
-      <link>https://example.org/tags/ci/cd/</link>
+      <link>https://homva.github.io/derekblog/tags/ci/cd/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/ci/cd/</guid>
+      <guid>https://homva.github.io/derekblog/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub Pages</title>
-      <link>https://example.org/tags/github-pages/</link>
+      <link>https://homva.github.io/derekblog/tags/github-pages/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/github-pages/</guid>
+      <guid>https://homva.github.io/derekblog/tags/github-pages/</guid>
       <description></description>
     </item>
     <item>
       <title>静态博客</title>
-      <link>https://example.org/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://homva.github.io/derekblog/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://homva.github.io/derekblog/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>协作</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%8D%8F%E4%BD%9C/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%8D%8F%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>团队文化</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%9B%A2%E9%98%9F%E6%96%87%E5%8C%96/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%9B%A2%E9%98%9F%E6%96%87%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工程师</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>写作</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%86%99%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工程师成长</title>
+      <link>https://homva.github.io/derekblog/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%88%90%E9%95%BF/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%88%90%E9%95%BF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>知识管理</title>
+      <link>https://homva.github.io/derekblog/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</guid>
       <description></description>
     </item>
   </channel>

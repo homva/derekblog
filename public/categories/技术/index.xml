@@ -1,18 +1,137 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>技术 on Tech Blog</title>
-    <link>https://example.org/categories/%E6%8A%80%E6%9C%AF/</link>
-    <description>Recent content in 技术 on Tech Blog</description>
+    <title>技术 on Derek Blogs</title>
+    <link>https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 03 Mar 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://example.org/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2026 01:30:00 +0800</lastBuildDate>
+    <atom:link href="https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAG 全链路技术详解：从文档加载到评估的完整工程实践</title>
+      <link>https://homva.github.io/derekblog/posts/rag-full-stack-technical-guide/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/rag-full-stack-technical-guide/</guid>
+      <description>系统梳理 RAG 全链路核心技术：文档加载、智能切分、索引构建、检索优化、生成调优、Graph RAG 与 Ragas 自动化评估</description>
+    </item>
+    <item>
+      <title>2.3万 Star 的科研写作神器：awesome-ai-research-writing 深度调研</title>
+      <link>https://homva.github.io/derekblog/posts/awesome-ai-research-writing-deep-dive/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/awesome-ai-research-writing-deep-dive/</guid>
+      <description>深入调研 GitHub 爆火的 AI 科研写作项目，拆解 15&#43; 个实战 Prompt 模板与 Agent Skills，看看顶尖实验室怎么写论文。</description>
+    </item>
+    <item>
+      <title>Printing Press CLI 最佳实践：6 个 Agent 原生工具的实战指南</title>
+      <link>https://homva.github.io/derekblog/posts/printing-press-cli-best-practices/</link>
+      <pubDate>Sat, 09 May 2026 02:08:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/printing-press-cli-best-practices/</guid>
+      <description>一站式安装 6 个 Printing Press CLI，从配置到实战场景，涵盖公司信息调研、技术社区检索、航班查询、项目管理和网页抓取。</description>
+    </item>
+    <item>
+      <title>Obscura：用 Rust 写的 AI 原生无头浏览器，6 倍速碾压 Chrome</title>
+      <link>https://homva.github.io/derekblog/posts/obscura-headless-browser/</link>
+      <pubDate>Fri, 08 May 2026 01:05:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/obscura-headless-browser/</guid>
+      <description>开箱即用的反检测、原生 DOM 转 Markdown、V8 JS 引擎——专为 AI Agent 打造的轻量级浏览器引擎</description>
+    </item>
+    <item>
+      <title>Claude Code Memory 完全指南：让 AI 助手记住你的项目</title>
+      <link>https://homva.github.io/derekblog/posts/claude-code-memory-guide/</link>
+      <pubDate>Mon, 27 Apr 2026 19:10:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/claude-code-memory-guide/</guid>
+      <description>深入解读 Claude Code 的 Memory 机制，帮助研发团队构建持久化的 AI 助手记忆体系</description>
+    </item>
+    <item>
+      <title>Andrej Karpathy Skills 调研报告</title>
+      <link>https://homva.github.io/derekblog/posts/andrej-karpathy-skills-survey/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/andrej-karpathy-skills-survey/</guid>
+      <description>基于 Karpathy AI 编程踩坑经验整理的四大原则及团队落地方案——Think Before Coding、Simplicity First、Surgical Changes、Goal-Driven。</description>
+    </item>
+    <item>
+      <title>Karpathy 原文解读：「用 Claude 编码几周后的随机笔记」</title>
+      <link>https://homva.github.io/derekblog/posts/karpathy-claude-coding-notes/</link>
+      <pubDate>Tue, 21 Apr 2026 00:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/karpathy-claude-coding-notes/</guid>
+      <description>解读 Karpathy 分享的 AI 编码工作流转变——从手写代码到声明式指令，以及 LLM 带来的能力边界扩展。</description>
+    </item>
+    <item>
+      <title>Superpowers vs OpenSpec 全景深度解析：从入门到高阶，AI 编程 Agent 的两种哲学</title>
+      <link>https://homva.github.io/derekblog/posts/superpowers-vs-openspec-deep-dive/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/superpowers-vs-openspec-deep-dive/</guid>
+      <description>全面对比 Superpowers 与 OpenSpec 两大 AI 编程框架，涵盖入门教程、高阶技巧、11维差异分析，以及为什么它们可以互补而非互斥</description>
+    </item>
+    <item>
+      <title>用 Claude Code 构建团队标准化研发流程：大厂案例 &#43; Hooks 驱动知识库 &#43; Java SpringBoot 规范</title>
+      <link>https://homva.github.io/derekblog/posts/claude-code-team-workflow-springboot/</link>
+      <pubDate>Mon, 20 Apr 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/claude-code-team-workflow-springboot/</guid>
+      <description>收集 incident.io、得物、Anthropic、Google、Treasure Data 等大厂实践案例，总结 Claude Code &#43; Hooks 构建团队标准化研发流程的完整方案</description>
+    </item>
+    <item>
+      <title>OpenSpec 全面解读：让 AI 编码从聊天即文档到文档即契约</title>
+      <link>https://homva.github.io/derekblog/posts/openspec-comprehensive-guide/</link>
+      <pubDate>Mon, 20 Apr 2026 01:15:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/openspec-comprehensive-guide/</guid>
+      <description>全面解读 Fission-AI/OpenSpec 框架，Spec 驱动开发 SDD 的核心理念、全部概念、完整工作流与实战指南</description>
+    </item>
+    <item>
+      <title>深入解读 Superpowers：让 AI Coding Agent 拥有超能力的开发方法论</title>
+      <link>https://homva.github.io/derekblog/posts/superpowers-ai-coding-framework/</link>
+      <pubDate>Mon, 20 Apr 2026 00:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/superpowers-ai-coding-framework/</guid>
+      <description>全面解读 obra/superpowers 框架——一套让 AI 编码代理系统化工作的完整软件开发方法论</description>
+    </item>
+    <item>
+      <title>博客发布经验总结：从零到发布完整工作流</title>
+      <link>https://homva.github.io/derekblog/posts/blog-publishing-experience/</link>
+      <pubDate>Sun, 19 Apr 2026 22:46:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/blog-publishing-experience/</guid>
+      <description>总结从文章撰写到博客发布的完整经验、踩坑记录和最佳实践</description>
+    </item>
+    <item>
+      <title>cc-haha 教程：基于泄露 Claude Code 源码的本地可运行版本</title>
+      <link>https://homva.github.io/derekblog/posts/cc-haha-tutorial/</link>
+      <pubDate>Sun, 19 Apr 2026 22:43:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/cc-haha-tutorial/</guid>
+      <description>cc-haha 项目完整教程：安装配置、功能使用、多 Agent 系统、记忆系统、Channel 远程驱动等</description>
+    </item>
+    <item>
+      <title>Hugo 在 WSL ARM 上安装踩坑记：wazero SIGILL 崩溃与解决方案</title>
+      <link>https://homva.github.io/derekblog/posts/hugo-wsl-arm-install/</link>
+      <pubDate>Sun, 19 Apr 2026 18:09:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/hugo-wsl-arm-install/</guid>
+      <description>在 WSL2 ARM 环境安装 Hugo 时遇到 wazero SIGILL 崩溃的根因分析与从源码编译的完整解决方案</description>
+    </item>
+    <item>
+      <title>yt-dlp 深度解读：全球最强开源视频下载器的架构、原理与思考</title>
+      <link>https://homva.github.io/derekblog/posts/yt-dlp-deep-dive/</link>
+      <pubDate>Sun, 19 Apr 2026 17:12:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/yt-dlp-deep-dive/</guid>
+      <description>深入解读 yt-dlp 的架构设计、源码实现、安装使用与思考性发问</description>
+    </item>
+    <item>
+      <title>Spark Performance Insight：重新定义 Spark 性能分析体验</title>
+      <link>https://homva.github.io/derekblog/posts/spark-performance-insight-intro/</link>
+      <pubDate>Wed, 04 Mar 2026 11:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/spark-performance-insight-intro/</guid>
+      <description>Spark Performance Insight：重新定义 Spark 性能分析体验</description>
+    </item>
+    <item>
+      <title>Chalk - 终端字符串样式设计利器</title>
+      <link>https://homva.github.io/derekblog/posts/chalk-project-intro/</link>
+      <pubDate>Wed, 04 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/chalk-project-intro/</guid>
+      <description>chalk终端字符串样式设计利器</description>
+    </item>
     <item>
       <title>Hugo 博客搭建完全指南</title>
-      <link>https://example.org/posts/hugo-setup-guide/</link>
+      <link>https://homva.github.io/derekblog/posts/hugo-setup-guide/</link>
       <pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://example.org/posts/hugo-setup-guide/</guid>
+      <guid>https://homva.github.io/derekblog/posts/hugo-setup-guide/</guid>
       <description>从零开始搭建 Hugo 静态博客，配置主题、部署到 Cloudflare Pages。</description>
     </item>
   </channel>

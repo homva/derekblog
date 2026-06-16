@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Tech Blog</title>
-    <link>https://example.org/categories/</link>
-    <description>Recent content in Categories on Tech Blog</description>
+    <title>Categories on Derek Blogs</title>
+    <link>https://homva.github.io/derekblog/categories/</link>
+    <description>Recent content in Categories on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 03 Mar 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2026 01:30:00 +0800</lastBuildDate>
+    <atom:link href="https://homva.github.io/derekblog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>技术</title>
-      <link>https://example.org/categories/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://example.org/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <link>https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Mon, 25 May 2026 01:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://homva.github.io/derekblog/categories/ai/</link>
+      <pubDate>Tue, 05 May 2026 23:53:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI技术</title>
+      <link>https://homva.github.io/derekblog/categories/ai%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/ai%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>架构设计</title>
+      <link>https://homva.github.io/derekblog/categories/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Sun, 26 Apr 2026 09:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>后端技术</title>
+      <link>https://homva.github.io/derekblog/categories/%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Tue, 03 Mar 2026 14:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     <item>
       <title>技术实践</title>
-      <link>https://example.org/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>团队故事</title>
+      <link>https://homva.github.io/derekblog/categories/%E5%9B%A2%E9%98%9F%E6%95%85%E4%BA%8B/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/%E5%9B%A2%E9%98%9F%E6%95%85%E4%BA%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工程文化</title>
+      <link>https://homva.github.io/derekblog/categories/%E5%B7%A5%E7%A8%8B%E6%96%87%E5%8C%96/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://homva.github.io/derekblog/categories/%E5%B7%A5%E7%A8%8B%E6%96%87%E5%8C%96/</guid>
       <description></description>
     </item>
   </channel>

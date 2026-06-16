@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>建站 on Tech Blog</title>
-    <link>https://example.org/tags/%E5%BB%BA%E7%AB%99/</link>
-    <description>Recent content in 建站 on Tech Blog</description>
+    <title>建站 on Derek Blogs</title>
+    <link>https://homva.github.io/derekblog/tags/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 03 Mar 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://example.org/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://homva.github.io/derekblog/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo 博客搭建完全指南</title>
-      <link>https://example.org/posts/hugo-setup-guide/</link>
+      <link>https://homva.github.io/derekblog/posts/hugo-setup-guide/</link>
       <pubDate>Tue, 03 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://example.org/posts/hugo-setup-guide/</guid>
+      <guid>https://homva.github.io/derekblog/posts/hugo-setup-guide/</guid>
       <description>从零开始搭建 Hugo 静态博客，配置主题、部署到 Cloudflare Pages。</description>
     </item>
   </channel>

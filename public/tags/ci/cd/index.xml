@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CI/CD on Tech Blog</title>
-    <link>https://example.org/tags/ci/cd/</link>
-    <description>Recent content in CI/CD on Tech Blog</description>
+    <title>CI/CD on Derek Blogs</title>
+    <link>https://homva.github.io/derekblog/tags/ci/cd/</link>
+    <description>Recent content in CI/CD on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://homva.github.io/derekblog/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从零搭建静态博客：Hugo &#43; GitHub Pages 完整指南</title>
-      <link>https://example.org/posts/static-blog-with-hugo/</link>
+      <link>https://homva.github.io/derekblog/posts/static-blog-with-hugo/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/static-blog-with-hugo/</guid>
+      <guid>https://homva.github.io/derekblog/posts/static-blog-with-hugo/</guid>
       <description>手把手带你用 Hugo 搭建一个高性能静态博客，并通过 GitHub Actions 自动化部署到 GitHub Pages</description>
     </item>
   </channel>
