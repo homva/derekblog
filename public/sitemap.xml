@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://homva.github.io/derekblog/tags/ai%E5%B7%A5%E7%A8%8B%E5%8C%96/</loc>
-    <lastmod>2026-05-25T01:30:00+08:00</lastmod>
+    <loc>https://homva.github.io/derekblog/tags/ai/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/categories/</loc>
-    <lastmod>2026-05-25T01:30:00+08:00</lastmod>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/tags/devsecops/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/posts/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/posts/shannon-ai-pentest-tutorial/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/tags/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/categories/%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/tags/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/tags/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2026-06-16T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://homva.github.io/derekblog/tags/ai%E5%B7%A5%E7%A8%8B%E5%8C%96/</loc>
     <lastmod>2026-05-25T01:30:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/tags/embedding/</loc>
@@ -17,16 +44,10 @@
     <loc>https://homva.github.io/derekblog/tags/llm/</loc>
     <lastmod>2026-05-25T01:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://homva.github.io/derekblog/posts/</loc>
-    <lastmod>2026-05-25T01:30:00+08:00</lastmod>
-  </url><url>
     <loc>https://homva.github.io/derekblog/tags/rag/</loc>
     <lastmod>2026-05-25T01:30:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/posts/rag-full-stack-technical-guide/</loc>
-    <lastmod>2026-05-25T01:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://homva.github.io/derekblog/tags/</loc>
     <lastmod>2026-05-25T01:30:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF/</loc>
@@ -36,9 +57,6 @@
     <lastmod>2026-05-25T01:30:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/posts/awesome-ai-research-writing-deep-dive/</loc>
-    <lastmod>2026-05-18T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://homva.github.io/derekblog/tags/ai/</loc>
     <lastmod>2026-05-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://homva.github.io/derekblog/tags/latex/</loc>
