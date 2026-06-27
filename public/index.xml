@@ -6,8 +6,113 @@
     <description>Recent content on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 Jun 2026 09:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 01:22:00 +0800</lastBuildDate>
     <atom:link href="https://homva.github.io/derekblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cc-weixin 深度解析：基于腾讯官方 iLink 协议的微信 Bot API</title>
+      <link>https://homva.github.io/derekblog/posts/cc-weixin-ilink-bot-api-deep-dive/</link>
+      <pubDate>Sun, 28 Jun 2026 01:22:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/cc-weixin-ilink-bot-api-deep-dive/</guid>
+      <description>深入分析 cc-weixin 项目底层原理，完整还原腾讯官方 iLink Bot 协议的技术细节，探讨微信个人号合法开放 Bot API 的里程碑意义。</description>
+    </item>
+    <item>
+      <title>open-notebook：NotebookLM 的开源替代，功能更灵活的知识管理工具</title>
+      <link>https://homva.github.io/derekblog/posts/open-notebook-notebooklm-alternative/</link>
+      <pubDate>Sat, 20 Jun 2026 20:05:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/open-notebook-notebooklm-alternative/</guid>
+      <description>Google NotebookLM的开源实现，功能更灵活，支持自部署，笔记研究利器。</description>
+    </item>
+    <item>
+      <title>pm-skills：100&#43; 产品经理方向的 Agentic Skills 市场，3600 Star</title>
+      <link>https://homva.github.io/derekblog/posts/pm-skills-product-manager/</link>
+      <pubDate>Sat, 20 Jun 2026 20:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/pm-skills-product-manager/</guid>
+      <description>100多个产品经理方向的Agentic Skills市场，覆盖需求分析、PRD撰写、竞品分析等PM日常场景。</description>
+    </item>
+    <item>
+      <title>last30days-skill：跨平台主题研究 Agent Skill，一键调研 Reddit、X、YouTube</title>
+      <link>https://homva.github.io/derekblog/posts/last30days-skill-research/</link>
+      <pubDate>Sat, 20 Jun 2026 19:55:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/last30days-skill-research/</guid>
+      <description>跨Reddit、X、YouTube、HN、Polymarket的主题研究agent skill，一键完成多平台调研。</description>
+    </item>
+    <item>
+      <title>apple/container：Apple 官方出品的 Swift 容器工具，为 Apple Silicon 优化</title>
+      <link>https://homva.github.io/derekblog/posts/apple-container-swift/</link>
+      <pubDate>Sat, 20 Jun 2026 19:50:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/apple-container-swift/</guid>
+      <description>Apple 官方用 Swift 编写的 Linux 容器工具，专为 Apple Silicon 芯片优化。</description>
+    </item>
+    <item>
+      <title>Agent-Reach：让 AI Agent 零成本读取 Twitter、Reddit、B站、小红书</title>
+      <link>https://homva.github.io/derekblog/posts/agent-reach-social-platform/</link>
+      <pubDate>Sat, 20 Jun 2026 19:45:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/agent-reach-social-platform/</guid>
+      <description>让AI Agent无需API费用即可读取Twitter、Reddit、YouTube、B站、小红书等平台的实时数据。</description>
+    </item>
+    <item>
+      <title>agent-skills：Google 工程师整理的生产级 AI 编码 Skills 合集</title>
+      <link>https://homva.github.io/derekblog/posts/agent-skills-production-coding/</link>
+      <pubDate>Sat, 20 Jun 2026 19:40:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/agent-skills-production-coding/</guid>
+      <description>Google 工程师 Addy Osmani 整理的生产级 AI 编码 Skills 合集，涵盖多种实战场景。</description>
+    </item>
+    <item>
+      <title>freeCodeCamp：40万Star的免费编程学习平台，非营利组织的硬核教育项目</title>
+      <link>https://homva.github.io/derekblog/posts/freecodecamp-free-learning/</link>
+      <pubDate>Sat, 20 Jun 2026 19:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/freecodecamp-free-learning/</guid>
+      <description>完全免费的编程学习平台，40万&#43;Star，11大方向认证课程，无付费墙无广告。</description>
+    </item>
+    <item>
+      <title>headroom：压缩 LLM 输入，节省 60-95% Token 的开源神器</title>
+      <link>https://homva.github.io/derekblog/posts/headroom-llm-token-compression/</link>
+      <pubDate>Sat, 20 Jun 2026 19:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/headroom-llm-token-compression/</guid>
+      <description>压缩工具输出、日志、RAG chunks等LLM输入内容，节省60-95% Token，本周Trending榜单第一。</description>
+    </item>
+    <item>
+      <title>LMCache：给 LLM 推理装上加速器，Qwen3-235B 性能提升 10 倍</title>
+      <link>https://homva.github.io/derekblog/posts/lmcache-llm-inference-acceleration/</link>
+      <pubDate>Sat, 20 Jun 2026 19:30:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/lmcache-llm-inference-acceleration/</guid>
+      <description>芝加哥大学团队开源的KV Cache加速层，为vLLM、SGLang等推理引擎加速，Qwen3-235B推理性能提升近10倍。</description>
+    </item>
+    <item>
+      <title>chatwoot：3.2万Star的开源全渠道客服系统，替代Zendesk的自部署方案</title>
+      <link>https://homva.github.io/derekblog/posts/chatwoot-omnichannel-support/</link>
+      <pubDate>Sat, 20 Jun 2026 19:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/chatwoot-omnichannel-support/</guid>
+      <description>全渠道聚合收件箱，支持WhatsApp、邮件、社交媒体，自部署免费，数据完全可控。</description>
+    </item>
+    <item>
+      <title>SkillSpector：NVIDIA 官方出品，AI Skills 安全扫描器</title>
+      <link>https://homva.github.io/derekblog/posts/skillspector-nvidia-ai-skill-security/</link>
+      <pubDate>Sat, 20 Jun 2026 19:20:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/skillspector-nvidia-ai-skill-security/</guid>
+      <description>NVIDIA 官方 Skill 安全扫描器，检测16大类64种漏洞模式，上线首周5500 Star。</description>
+    </item>
+    <item>
+      <title>agentsview：给 Coding Agent 装上账本，20&#43; AI 编码工具费用一目了然</title>
+      <link>https://homva.github.io/derekblog/posts/agentsview-coding-agent-tracker/</link>
+      <pubDate>Sat, 20 Jun 2026 19:10:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/agentsview-coding-agent-tracker/</guid>
+      <description>本地Web应用，自动扫描20多种Coding Agent的会话记录，统一展示token消耗和费用统计。</description>
+    </item>
+    <item>
+      <title>codebase-memory-mcp：给 AI 装上代码记忆，大型项目探索 Token 消耗降低 95%</title>
+      <link>https://homva.github.io/derekblog/posts/codebase-memory-mcp/</link>
+      <pubDate>Sat, 20 Jun 2026 19:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/codebase-memory-mcp/</guid>
+      <description>DeusData 开源的代码记忆 MCP Server，把代码库索引成持久化知识图谱，支持 158 种编程语言。</description>
+    </item>
+    <item>
+      <title>PowerToys：Windows 用户的瑞士军刀，30&#43; 工具一站式提升效率</title>
+      <link>https://homva.github.io/derekblog/posts/powertoys-windows-toolbox/</link>
+      <pubDate>Sat, 20 Jun 2026 19:00:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/powertoys-windows-toolbox/</guid>
+      <description>微软官方开源工具箱，13.5万Star，集成FancyZones、PowerToys Run、Text Extractor等30多个实用小工具。</description>
+    </item>
     <item>
       <title>Shannon 入门教程：用 AI 做自动化白盒渗透测试</title>
       <link>https://homva.github.io/derekblog/posts/shannon-ai-pentest-tutorial/</link>

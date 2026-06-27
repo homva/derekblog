@@ -6,8 +6,15 @@
     <description>Recent content in 技术 on Derek Blogs</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 May 2026 01:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 01:22:00 +0800</lastBuildDate>
     <atom:link href="https://homva.github.io/derekblog/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cc-weixin 深度解析：基于腾讯官方 iLink 协议的微信 Bot API</title>
+      <link>https://homva.github.io/derekblog/posts/cc-weixin-ilink-bot-api-deep-dive/</link>
+      <pubDate>Sun, 28 Jun 2026 01:22:00 +0800</pubDate>
+      <guid>https://homva.github.io/derekblog/posts/cc-weixin-ilink-bot-api-deep-dive/</guid>
+      <description>深入分析 cc-weixin 项目底层原理，完整还原腾讯官方 iLink Bot 协议的技术细节，探讨微信个人号合法开放 Bot API 的里程碑意义。</description>
+    </item>
     <item>
       <title>RAG 全链路技术详解：从文档加载到评估的完整工程实践</title>
       <link>https://homva.github.io/derekblog/posts/rag-full-stack-technical-guide/</link>
